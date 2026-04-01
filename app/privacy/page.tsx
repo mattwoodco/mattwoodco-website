@@ -7,7 +7,8 @@ export const metadata: Metadata = {
 
 export default function PrivacyPage() {
   return (
-    <main className="mx-auto max-w-2xl px-6 py-20 font-[family-name:var(--font-inter)] text-foreground">
+    <div className="fixed inset-0 overflow-y-auto bg-black">
+    <main className="mx-auto max-w-2xl px-6 py-20 font-[family-name:var(--font-inter)] text-white">
       <h1 className="mb-2 font-[family-name:var(--font-goudy)] text-3xl font-normal tracking-tight">
         Privacy Policy
       </h1>
@@ -15,7 +16,7 @@ export default function PrivacyPage() {
         Effective Date: March 30, 2026
       </p>
 
-      <div className="space-y-8 text-sm leading-relaxed text-muted-foreground">
+      <div className="space-y-4 text-sm leading-relaxed text-white">
         <p>
           We value your privacy and make every effort to respect your wishes and
           personal information. Please read this policy carefully to understand
@@ -23,7 +24,7 @@ export default function PrivacyPage() {
         </p>
 
         <section>
-          <h2 className="mb-3 text-base font-semibold text-foreground">
+          <h2 className="mb-3 text-base font-semibold text-white">
             Collection of Phone Numbers
           </h2>
           <p>
@@ -35,7 +36,7 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="mb-3 text-base font-semibold text-foreground">
+          <h2 className="mb-3 text-base font-semibold text-white">
             Use of Phone Numbers for SMS
           </h2>
           <p>
@@ -46,7 +47,7 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="mb-3 text-base font-semibold text-foreground">
+          <h2 className="mb-3 text-base font-semibold text-white">
             Opting Out of Messages
           </h2>
           <p>
@@ -56,7 +57,7 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="mb-3 text-base font-semibold text-foreground">
+          <h2 className="mb-3 text-base font-semibold text-white">
             Privacy of Phone Numbers
           </h2>
           <p>
@@ -66,22 +67,23 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="mb-3 text-base font-semibold text-foreground">
+          <h2 className="mb-3 text-base font-semibold text-white">
             Changes to This Policy
           </h2>
           <p>
             We may periodically update this policy. We will notify you about
-            significant changes in the way we treat your information by placing a
-            prominent notice on our site.
+            significant changes in the way we treat your information by placing
+            a prominent notice on our site.
           </p>
         </section>
 
         <p>
           We thank you for your understanding and cooperation. If you have any
-          questions or concerns about this policy, please feel free to contact us
-          via the form on our site.
+          questions or concerns about this policy, please feel free to contact
+          us via the form on our site.
         </p>
       </div>
     </main>
+    </div>
   );
 }
