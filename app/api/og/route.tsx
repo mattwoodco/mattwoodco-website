@@ -51,7 +51,7 @@ export async function GET(request: NextRequest) {
     const { searchParams } = new URL(request.url);
     const title = searchParams.get("title") || "Matt Wood";
     const subtitle =
-      searchParams.get("subtitle") || "Design Engineer | Austin, TX";
+      searchParams.get("subtitle") || "Design Engineer | Provo, UT";
     const description = searchParams.get("description") || "";
 
     console.log("🔍 OG Route: Parsed params", { title, subtitle, description });

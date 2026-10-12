@@ -5,7 +5,7 @@ export function PersonSchema() {
     name: "Matt Wood",
     jobTitle: "Design Engineer",
     description:
-      "Product Designer & Engineer based in Austin, TX, specializing in design systems and user experience.",
+      "Product Designer & Engineer based in Provo, UT, specializing in design systems and user experience.",
     url: "https://mattwood.co",
     sameAs: [
       "https://linkedin.com/in/mattwoodco",
@@ -14,8 +14,8 @@ export function PersonSchema() {
     ],
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Austin",
-      addressRegion: "TX",
+      addressLocality: "Provo",
+      addressRegion: "UT",
       addressCountry: "US",
     },
     knowsAbout: [

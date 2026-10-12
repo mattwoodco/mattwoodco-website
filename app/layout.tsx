@@ -42,15 +42,15 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://mattwood.co"),
   title: {
     default:
-      "Matt Wood - Design Engineer | JPMorgan, NBC, FM Global, Dentsu, Blue Note Records | Austin TX",
+      "Matt Wood - Design Engineer | JPMorgan, NBC, FM Global, Dentsu, Blue Note Records | Provo UT",
     template: "%s | Matt Wood - Design Engineer",
   },
   description:
-    "Product Designer & Engineer based in Austin, TX. Portfolio showcasing work with JPMorgan, NBC, FM Global, Dentsu, and Blue Note Records. Specializing in design systems, user experience, and full-stack development.",
+    "Product Designer & Engineer based in Provo, UT. Portfolio showcasing work with JPMorgan, NBC, FM Global, Dentsu, and Blue Note Records. Specializing in design systems, user experience, and full-stack development.",
   keywords: [
     "Design Engineer",
     "UX Engineer",
-    "Austin TX",
+    "Provo UT",
     "Portfolio",
     "JPMorgan",
     "NBC",
@@ -81,9 +81,9 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://mattwood.co",
     siteName: "Matt Wood Portfolio",
-    title: "Matt Wood - Design Engineer | Austin TX",
+    title: "Matt Wood - Design Engineer | Provo UT",
     description:
-      "Product Designer & Engineer based in Austin, TX. Portfolio showcasing work with Fortune 500 companies.",
+      "Product Designer & Engineer based in Provo, UT. Portfolio showcasing work with Fortune 500 companies.",
     images: [
       {
         url: "/api/og",
@@ -96,9 +96,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Matt Wood - Design Engineer | Austin TX",
+    title: "Matt Wood - Design Engineer | Provo UT",
     description:
-      "Product Designer & Engineer based in Austin, TX. Portfolio showcasing work with Fortune 500 companies.",
+      "Product Designer & Engineer based in Provo, UT. Portfolio showcasing work with Fortune 500 companies.",
     creator: "@mattwoodco",
     images: ["/api/og"],
   },
